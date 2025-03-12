@@ -1,4 +1,4 @@
-function settings = initSettings_OpenSky()
+function settings = initSettings()
 %Functions initializes and saves settings. Settings can be edited inside of
 %the function, updated from the command line or updated using a dedicated
 %GUI - "setSettings".  
@@ -51,7 +51,7 @@ settings.skipNumberOfBytes     = 0; %1000;%7000*26000*2;
 %% Raw signal file name and other parameter ===============================
 % This is a "default" name of the data file (signal record) to be used in
 % the post-processing mode
-settings.fileName           = '/home/ziqi-zhang/Desktop/Opensky.bin';
+settings.fileName           = '/home/ziqi-zhang/Desktop/Urban.dat';
 
 
 % Data type used to store one sample
@@ -63,9 +63,10 @@ settings.dataType           = 'schar';
 settings.fileType           = 2;
 
 % Intermediate, sampling and code frequencies
-settings.IF                 = 4.58e6;%10e6;%1580e6-1575.42e6;     % [Hz]
+%settings.IF                 = 4.58e6;%10e6;%1580e6-1575.42e6;     % [Hz]
+settings.IF                 = 0;%10e6;%1580e6-1575.42e6;     % [Hz]
 
-settings.samplingFreq       = 58e6;%58e6; %26e6       % [Hz]
+settings.samplingFreq       = 26e6;%58e6; %26e6       % [Hz]
 settings.codeFreqBasis      = 1.023e6;     % [Hz]
 
 % Define number of chips in a code period
