@@ -41,7 +41,7 @@ function [trackResults, channel]= tracking(fid, channel, settings)
 
 %CVS record:
 %$Id: tracking.m,v 1.14.2.31 2006/08/14 11:38:22 dpl Exp $
-
+addpath("Common/")
 %% Initialize result structure ============================================
 
 % Channel status

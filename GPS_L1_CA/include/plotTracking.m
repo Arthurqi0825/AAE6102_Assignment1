@@ -1,4 +1,4 @@
-function plotTracking(channelList, trackResults, settings)
+function [channelList] = plotTracking(channelList, trackResults, settings)
 %This function plots the tracking results for the given channel list.
 %
 %plotTracking(channelList, trackResults, settings)

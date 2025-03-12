@@ -52,6 +52,8 @@ fprintf('                   -------------------------------\n\n');
 
 %% Initialize constants, settings =========================================
 settings = initSettings();
+% settings = initSetting_Urban();
+% settings = initSettings_OpenSky();
 
 %% Generate plot of raw data and ask if ready to start processing =========
 try

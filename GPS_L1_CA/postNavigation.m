@@ -275,7 +275,7 @@ for currMeasNr = 1:measNrSum
         navSolutions.correctedP(activeChnList, currMeasNr) = ...
                 navSolutions.rawP(activeChnList, currMeasNr) + ...
                 satClkCorr' * settings.c - xyzdt(4);
-        %% static SPP with Extended Kalman Filter -- thanks the help from sbs and hd
+        %% static SPP with Extended Kalman Filter
         if currMeasNr == 1
             X = [xyzdt(1:3),0,0,0,xyzdt(4),0]';
         else

@@ -55,8 +55,8 @@
 % 5) Plot the results.
 
 %% Initialization =========================================================
-addpath include
-addpath common
+addpath("Common/")
+addpath("Common/")
 disp ('Starting processing...');
 
 settings = initSettings();
@@ -161,7 +161,7 @@ figure,plot([-0.5,0,0.5],[E;P;L]);
 %% Plot all results =======================================================
     disp ('   Ploting results...');
     if settings.plotTracking
-        plotTracking(1:settings.numberOfChannels, trackResults, settings);
+        channelList = plotTracking(1:settings.numberOfChannels, trackResults, settings);
     end
 
     plotNavigation(navSolutions, settings);
@@ -173,4 +173,5 @@ else
     error('Unable to read file %s: %s.', settings.fileName, message);
 end % if (fid > 0)
 
-doppler=calculateDoppler(trackResults,currMeasSample,channelList,settings);
+doppler=calculateDoppler(trackResults,navSolutions.currMeasSample,channelList,settings);
+
