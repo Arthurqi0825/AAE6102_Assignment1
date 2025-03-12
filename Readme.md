@@ -89,6 +89,11 @@ else:
 
 ![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Urban.png)
 
+
+#### Effect of Multipath
+
+The satellite signals are reflected by narrow buildings, causing significant drift in localization accuracy. In comparison to the Opensky dataset, which provides a reliable solution with ground truth, the Urban dataset exhibits considerable errors in position estimation due to the multipath effects caused by these reflections. This leads to less accurate localization results in urban environments.
+
 ## **Task 5 – Kalman Filter-Based Positioning**  
 Develop an **Extended Kalman Filter (EKF)** using **pseudorange and Doppler measurements** to estimate **user position and velocity**.
 
