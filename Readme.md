@@ -85,6 +85,11 @@ else:
 ![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Position_urban.jpg)
 
 ### Comparision with Ground Truth
+![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Navigation_solution_opeksky.jpg)
+
+![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Navigation_solution_Urban.jpd)
+
+
 ![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/OpenSky.png)
 
 ![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Urban.png)
@@ -97,4 +102,15 @@ The satellite signals are reflected by narrow buildings, causing significant dri
 ## **Task 5 – Kalman Filter-Based Positioning**  
 Develop an **Extended Kalman Filter (EKF)** using **pseudorange and Doppler measurements** to estimate **user position and velocity**.
 
+### EKF on Velocity
+![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/EKF_Velocity_Urban.jpg)
+
+![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/EKF_Velocity_OpenSky.jpg)
+
+### EKF on Position
+
+![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/EKF_Navigation_OpenSky.jpg)
+
+
+![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/EKF_Navigation_Urban.jpg)
 
