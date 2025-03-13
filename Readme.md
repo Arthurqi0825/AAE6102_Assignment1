@@ -87,7 +87,7 @@ else:
 ### Comparision with Ground Truth
 ![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Navigation_solution_opeksky.jpg)
 
-![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Navigation_Solution_Urban.jpd)
+![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Navigation_Solution_Urban.jpg)
 
 
 ![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/OpenSky.png)
