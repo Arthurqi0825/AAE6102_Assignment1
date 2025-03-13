@@ -87,7 +87,7 @@ else:
 ### Comparision with Ground Truth
 ![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Navigation_solution_opeksky.jpg)
 
-![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Navigation_solution_Urban.jpd)
+![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/Navigation_Solution_Urban.jpd)
 
 
 ![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/OpenSky.png)
@@ -109,7 +109,7 @@ Develop an **Extended Kalman Filter (EKF)** using **pseudorange and Doppler meas
 
 ### EKF on Position
 
-![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/EKF_Navigation_OpenSky.jpg)
+![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/EKF_Navigation_Opensky.jpg)
 
 
 ![image](https://github.com/Arthurqi0825/AAE6102_Assignment1/blob/main/Figures/EKF_Navigation_Urban.jpg)
